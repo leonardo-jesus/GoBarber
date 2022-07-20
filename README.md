@@ -59,7 +59,7 @@ The **_GoBarber_**, is a Project under **construction** :construction\*worker: :
 - Do commit with your changes: `git commit -m 'feat(my-feature): My new feature'`;
 - Do a push for your branch: `git push origin my-feature`.
 
-Use [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/). 
+Use [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/). </br>
 After the merge of your pull request was made, you can delete your branch.
 
 ## :memo: License
