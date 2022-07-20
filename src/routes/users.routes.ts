@@ -23,7 +23,8 @@ usersRouter.post('/', async (req, res) => {
     delete user.password;
 
     return res.json(user);
-  } catch (err) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (err: any) {
     return res.status(400).json({ error: err.message });
   }
 });
